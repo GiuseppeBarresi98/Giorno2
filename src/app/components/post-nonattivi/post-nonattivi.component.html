@@ -1,0 +1,9 @@
+<div>
+  <h2>Active Posts</h2>
+  <div class="card" *ngFor="let post of nonactivePosts">
+    <div class="card-body">
+      <h5 class="card-title">{{ post.title }}</h5>
+      <p class="card-text">Post ID: {{ post.body }}</p>
+    </div>
+  </div>
+</div>
